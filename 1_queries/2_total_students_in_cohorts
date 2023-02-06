@@ -1,0 +1,5 @@
+SELECT id, name
+FROM students
+WHERE cohort_id IS NOT NULL AND cohort_id <= 3;
+
+1_queries/2_total_students_in_cohorts
